@@ -8,3 +8,6 @@
 3.改变播放速度
 
 4.GIF圆角处理显示
+
+新增功能
+QListView+QStyledItemDelegate绘制GIF头像

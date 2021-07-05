@@ -85,15 +85,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="userListView.cpp" />
+    <ClCompile Include="userListViewDelegate.cpp" />
+    <ClCompile Include="userListViewMode.cpp" />
     <QtRcc Include="gifHandler.qrc" />
     <QtUic Include="gifHandler.ui" />
     <QtMoc Include="gifHandler.h" />
     <ClCompile Include="gifHandler.cpp" />
     <ClCompile Include="gifProxyStyle.cpp" />
     <ClCompile Include="main.cpp" />
+    <QtUic Include="userListView.ui" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gifProxyStyle.h" />
+    <QtMoc Include="userListViewModel.h" />
+    <QtMoc Include="userListViewDelegate.h" />
+    <QtMoc Include="userListView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
